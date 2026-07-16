@@ -1,9 +1,6 @@
 # 🔨 Interactive Glass Shattering Simulation
 
-An immersive, highly interactive web graphic application that simulates realistic glass-shattering visual and audio effects built entirely using JavaScript, SVG, and CSS. 
-
-## 🚀 Live Demo
-Check out the live project here: **[Live Demo](https://yourtarikur.netlify.app/)**
+An immersive, highly interactive web graphic application that simulates realistic glass-shattering visual and audio effects. This project features a stunning glassmorphic layout and particle physics, bringing a highly tactile visual experience right to your browser.
 
 ---
 
@@ -12,45 +9,33 @@ Check out the live project here: **[Live Demo](https://yourtarikur.netlify.app/)
 - **Dynamic Shattering Engine:** Generates randomized, realistic glass cracks, impact rings, and dust branches based on exactly where you click.
 - **Physics-Based Debris:** Glass shards and tiny dust particles burst outward with velocity, gravity, and rotation upon impact.
 - **Audio & Sensory Feedback:** Integrated glass smashing sound effect paired with a dynamic screen shake animation to deliver a high-impact feel.
-- **Real-Time Customization (Tweakpane):** Control crack radius, ray count, particle force, gravity, and shake intensity instantly via an interactive GUI panel.
-- **Modern UI:** Clean, glassmorphic layout styled beautifully for desktop and mobile browsers.
+- **Real-Time Customization:** Control crack radius, ray count, particle force, gravity, and shake intensity instantly via an embedded Tweakpane GUI panel.
+- **Modern UI:** Clean, glassmorphic design optimized beautifully for both desktop and mobile web environments.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **HTML5** & **CSS3** (Custom Properties, OKLCH Color Space, CSS Keyframes)
-- **Scalable Vector Graphics (SVG)** (Dynamic path generation, complex SVG filter effects like `feTurbulence` and `feDisplacementMap`)
-- **Vanilla JavaScript (ES6+)** (Object-Oriented Architecture using private class methods, Custom Web Audio API)
-- **Tweakpane** (For real-time parameter configuration)
+- **HTML5** & **CSS3** (Custom properties, CSS keyframes, and OKLCH color space alignment)
+- **Vanilla JavaScript** (ES6+ Object-Oriented Architecture using private class structures)
+- **Scalable Vector Graphics (SVG)** (Dynamic path generation and mathematical point plotting)
+- **Tweakpane** (For real-time parameter configuration and UI controls)
 
 ---
 
 ## 🎨 SVG Filters & Effects Used
 
-This project heavily utilizes advanced SVG filters to achieve the realistic look of frosted glass:
-- `feTurbulence` & `feDisplacementMap` – For creating realistic structural stress patterns on individual glass shards.
+This project heavily utilizes advanced SVG filters to achieve the realistic look of frosted glass shards:
+- `feTurbulence` & `feDisplacementMap` – For creating realistic structural stress patterns on individual glass surfaces.
 - `feGaussianBlur` – To achieve the depth of field and soft bloom on lighting impacts.
-- `feColorMatrix` – To fine-tune alpha levels, shadows, and frosted white edges.
+- `feColorMatrix` – To fine-tune alpha levels, drop shadows, and frosted white edges.
 
 ---
 
-## ⚙️ Customization Settings
+## 🚀 How to Run the Project
 
-Through the embedded **Settings Panel**, you can tweak the following engine parameters:
-- **Crack:** Min/Max Rays, Min/Max Radius, Branching Odds.
-- **Rings & Debris:** Max Rings, Dust particle count, Force, and Gravity.
-- **Impact FX:** Screen Shake intensity and Flash duration.
+Since this is a client-side frontend project, you don't need any complex installation.
 
----
-
-## 🧑‍💻 Designed & Developed By
-
-**Tarikur Rahman**
-- 🌐 Portfolio: [yourtarikur.netlify.app](https://yourtarikur.netlify.app/)
-
----
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/glass-shattering-simulation.git](https://github.com/your-username/glass-shattering-simulation.git)
